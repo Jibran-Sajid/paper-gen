@@ -5,10 +5,10 @@ import './css/background.css';
 
 export default App = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <Footer />
-    </>
+    </div>
   );
 }
 

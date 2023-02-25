@@ -1,109 +1,111 @@
-export default Footer = () => {
+import React from 'react';
+
+function Footer(){
     return (
         <div>
             {/* <!-- Footer --> */}
-            <footer class="text-center text-lg-start text-dark footer mt-5 border-top mb-2" id="footer">
+            <footer className="text-center text-lg-start text-dark footer mt-5 border-top mb-2" id="footer">
                 {/* <!-- Grid container --> */}
-                <div class="container p-3 pb-0 pt-0">
+                <div className="container p-3 pb-0 pt-0">
                     {/* <!-- Section: Links --> */}
-                    <section class="">
+                    <section className="">
                         {/* <!--Grid row--> */}
-                        <div class="row">
+                        <div className="row">
                             {/* <!-- Grid column --> */}
-                            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                                <h6 class="text-uppercase mb-4 font-weight-bold">
+                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h6 className="text-uppercase mb-4 font-weight-bold">
                                     Roshni Magazine
                                 </h6>
                                 <p>Address
-                                    <p class="ps-2">
+                                    <p className="ps-2">
                                         061-6562200 061-6562300 289 Khanewal Road, Near Food Festival Multan
                                     </p>
                                 </p>
                             </div>
                             {/* <!-- Grid column --> */}
 
-                            <hr class="w-100 clearfix d-md-none" />
+                            <hr className="w-100 clearfix d-md-none" />
 
                             {/* <!-- Grid column --> */}
-                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                <h6 class="text-uppercase mb-4 font-weight-bold">Programs</h6>
+                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h6 className="text-uppercase mb-4 font-weight-bold">Programs</h6>
                                 <p>
-                                    <a class="footer-links"> <span class="credits">Information Technology</span> </a>
+                                    <a className="footer-links"> <span className="credits">Information Technology</span> </a>
                                 </p>
                                 <p>
-                                    <a class="footer-links"> <span class="credits">English</span> </a>
+                                    <a className="footer-links"> <span className="credits">English</span> </a>
                                 </p>
                                 <p>
-                                    <a class="footer-links"> <span class="credits">Math</span> </a>
+                                    <a className="footer-links"> <span className="credits">Math</span> </a>
                                 </p>
                                 <p>
-                                    <a class="footer-links"> <span class="credits">Physics</span> </a>
+                                    <a className="footer-links"> <span className="credits">Physics</span> </a>
                                 </p>
                             </div>
                             {/* <!-- Grid column --> */}
 
-                            <hr class="w-100 clearfix d-md-none" />
+                            <hr className="w-100 clearfix d-md-none" />
 
                             {/* <!-- Grid column --> */}
-                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                                <h6 class="text-uppercase mb-4 font-weight-bold">
+                            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h6 className="text-uppercase mb-4 font-weight-bold">
                                     Useful links
                                 </h6>
                                 <p>
-                                    <a class="footer-links"> <span class="credits">Your Account</span> </a>
+                                    <a className="footer-links"> <span className="credits">Your Account</span> </a>
                                 </p>
                                 <p>
-                                    <a class="footer-links"> <span class="credits">Become an Affiliate</span> </a>
+                                    <a className="footer-links"> <span className="credits">Become an Affiliate</span> </a>
                                 </p>
                                 <p>
-                                    <a class="footer-links"> <span class="credits">Shipping Rates</span> </a>
+                                    <a className="footer-links"> <span className="credits">Shipping Rates</span> </a>
                                 </p>
                                 <p>
-                                    <a class="footer-links"> <span class="credits">Help</span> </a>
+                                    <a className="footer-links"> <span className="credits">Help</span> </a>
                                 </p>
                             </div>
 
                             {/* <!-- Grid column --> */}
-                            <hr class="w-100 clearfix d-md-none" />
+                            <hr className="w-100 clearfix d-md-none" />
 
                             {/* <!-- Grid column --> */}
-                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                                <p><i class="bi bi-house-fill mr-3"></i> Multan, Pakistan</p>
-                                <p><i class="bi bi-envelope-fill mr-3"></i> info@roshnimagazine.com</p>
-                                <p><i class="bi bi-phone-fill mr-3"></i> 061-6562200</p>
-                                <p><i class="bi bi-printer-fill mr-3"></i> 061-6562300</p>
+                            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                                <p><i className="bi bi-house-fill mr-3"></i> Multan, Pakistan</p>
+                                <p><i className="bi bi-envelope-fill mr-3"></i> info@roshnimagazine.com</p>
+                                <p><i className="bi bi-phone-fill mr-3"></i> 061-6562200</p>
+                                <p><i className="bi bi-printer-fill mr-3"></i> 061-6562300</p>
                                 <p>
                                     {/* <!-- Facebook --> */}
                                     <a
-                                        class="btn btn-outline-dark btn-floating rounded-circle m-1 text-dark"
+                                        className="btn btn-outline-dark btn-floating rounded-circle m-1 text-dark"
                                         role="button"
                                     >
-                                        <i class="bi bi-facebook"></i>
+                                        <i className="bi bi-facebook"></i>
                                     </a>
 
                                     {/* <!-- Twitter --> */}
                                     <a
-                                        class="btn btn-outline-dark btn-floating rounded-circle m-1 text-dark"
+                                        className="btn btn-outline-dark btn-floating rounded-circle m-1 text-dark"
                                         role="button"
                                     >
-                                        <i class="bi bi-twitter"></i>
+                                        <i className="bi bi-twitter"></i>
                                     </a>
 
                                     {/* <!-- Google --> */}
                                     <a
-                                        class="btn btn-outline-dark btn-floating m-1 rounded-circle text-dark"
+                                        className="btn btn-outline-dark btn-floating m-1 rounded-circle text-dark"
                                         role="button"
                                     >
-                                        <i class="bi bi-google"></i>
+                                        <i className="bi bi-google"></i>
                                     </a>
 
                                     {/* <!-- Instagram --> */}
                                     <a
-                                        class="btn btn-outline-dark btn-floating m-1 rounded-circle text-dark"
+                                        className="btn btn-outline-dark btn-floating m-1 rounded-circle text-dark"
                                         role="button"
                                     >
-                                        <i class="bi bi-instagram"></i>
+                                        <i className="bi bi-instagram"></i>
                                     </a>
                                 </p>
                             </div>
@@ -113,17 +115,17 @@ export default Footer = () => {
                     </section>
                     {/* <!-- Section: Links --> */}
 
-                    <hr class="mb-3" />
+                    <hr className="mb-3" />
 
                     {/* <!-- Section: Copyright --> */}
-                    <section class=" pt-0">
-                        <div class="row d-flex align-items-center">
+                    <section className=" pt-0">
+                        <div className="row d-flex align-items-center">
                             {/* <!-- Grid column --> */}
-                            <div class="col-md-8 text-center">
+                            <div className="col-md-8 text-center">
                                 {/* <!-- Copyright --> */}
-                                <div class="p-1">
+                                <div className="p-1">
                                     © 2020 Copyright:
-                                    <a class="text-decoration-none footer-links" href="https://roshni.net.pk" target="_blank">
+                                    <a className="text-decoration-none footer-links" href="https://roshni.net.pk" target="_blank">
                                         Roshni Magazine
                                     </a>
                                 </div>
@@ -132,8 +134,8 @@ export default Footer = () => {
                             {/* <!-- Grid column --> */}
 
                             {/* <!-- Grid column --> */}
-                            <div class="col-md-4 text-center">
-                                <span class="credit">Crafted by</span> <a href="#" class="text-decoration-none crafter">AR</a>
+                            <div className="col-md-4 text-center">
+                                <span className="credit">Crafted by</span> <a href="#" className="text-decoration-none crafter">AR</a>
                             </div>
                             {/* <!-- Grid column --> */}
 
@@ -148,3 +150,5 @@ export default Footer = () => {
         </div>
     )
 }
+
+export default Footer;

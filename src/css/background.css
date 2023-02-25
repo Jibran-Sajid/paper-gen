@@ -1,6 +1,6 @@
 /* Body */
 body{
-    background: url(./images/background-clip-path-other-page.svg) top no-repeat; 
+    background: url(../images/background-clip-path-other-page.svg) top no-repeat; 
     -webkit-background-size: 3441px 570px;
     background-size:  3441px 570px;
 }

@@ -1,0 +1,15 @@
+/* Body */
+body{
+    background: url(../images/background-clip-path-other-page.svg) top no-repeat; 
+    -webkit-background-size: 3441px 570px;
+    background-size:  3441px 570px;
+}
+
+/* --------------- Media Query --------------- */
+@media(max-width : 768px){
+    body{
+        background: rgba(0,0,0,0) url(../images/background-clip-path-other-page.svg) left -420px top no-repeat;
+        -webkit-background-size: 1660px 275px;
+        background-size: 1660px 275px;
+    }
+}

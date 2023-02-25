@@ -1,6 +1,6 @@
 export default Navbar = () => {
     return (
-        <>
+        <div>
             {/* <!-- Small screen content -->
 
 <!-- Offcanvas --> */}
@@ -150,6 +150,6 @@ export default Navbar = () => {
             {/* <!-- </div> -->
 <!-- Navbar --> */}
 
-        </>
+        </div>
     )
 }

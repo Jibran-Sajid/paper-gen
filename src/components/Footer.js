@@ -1,6 +1,6 @@
 export default Footer = () => {
     return (
-        <>
+        <div>
             {/* <!-- Footer --> */}
             <footer class="text-center text-lg-start text-dark footer mt-5 border-top mb-2" id="footer">
                 {/* <!-- Grid container --> */}
@@ -145,6 +145,6 @@ export default Footer = () => {
             </footer>
             {/* <!-- Footer --> */}
 
-        </>
+        </div>
     )
 }

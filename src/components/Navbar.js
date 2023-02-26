@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar() {
+function Navbar(){
     return (
         <div>
             {/* <!-- Small screen content -->
@@ -114,7 +114,7 @@ function Navbar() {
 
                     <a href="#offcanvasMenu" role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" className="d-md-none d-lg-none text-decoration-none me-5"> <i className="bi bi-list"></i> </a>
 
-                    <div className="align-items-center col-md-3 mb-2 mb-md-0 text-dark d-md-flex d-lg-flex d-none">
+                    <div className="align-items-center col-md-1 mb-2 mb-md-0 text-dark d-md-flex d-lg-flex d-none">
                         <a
                             href="./"
                             className="text-decoration-none"
@@ -126,11 +126,11 @@ function Navbar() {
                     <ul
                         className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 d-none d-md-flex d-lg-flex"
                     >
-                        <li><a href="#" className="nav-link px-2 link-dark"> <span className="fancy-link">Home</span> </a></li>
-                        <li><a href="#" className="nav-link px-2 link-dark"> <span className="fancy-link">Features</span> </a></li>
-                        <li><a href="#" className="nav-link px-2 link-dark"> <span className="fancy-link">Pricing</span> </a></li>
-                        <li><a href="#" className="nav-link px-2 link-dark"> <span className="fancy-link">FAQs</span> </a></li>
-                        <li><a href="#" className="nav-link px-2 link-dark"> <span className="fancy-link">About</span> </a></li>
+                        <li><a href="#" className="nav-link pe-lg-1 link-dark"> <span className="fancy-link">Home</span> </a></li>
+                        <li><a href="#" className="nav-link pe-lg-1 link-dark"> <span className="fancy-link">Features</span> </a></li>
+                        <li><a href="#" className="nav-link pe-lg-1 link-dark"> <span className="fancy-link">Pricing</span> </a></li>
+                        <li><a href="#" className="nav-link pe-lg-1 link-dark"> <span className="fancy-link">FAQs</span> </a></li>
+                        <li><a href="#" className="nav-link pe-lg-1 link-dark"> <span className="fancy-link">About</span> </a></li>
                     </ul>
 
                     <div className="col-md-3 text-end">
@@ -149,8 +149,7 @@ function Navbar() {
                     </div>
                 </header>
             </div>
-            {/* <!-- </div> -->
-<!-- Navbar --> */}
+            {/* <!-- Navbar --> */}
 
         </div>
     )

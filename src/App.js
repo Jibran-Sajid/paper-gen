@@ -6,7 +6,7 @@ import './css/background.css';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <Navbar />
 
       {/* <!-- Container --> */}
@@ -22,7 +22,7 @@ function App() {
       {/* <!-- Container --> */}
 
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 

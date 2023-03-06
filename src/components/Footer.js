@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(){
     return (
-        <div>
+        <React.Fragment>
             {/* <!-- Footer --> */}
             <footer className="text-center text-lg-start text-dark footer mt-5 border-top mb-2" id="footer">
                 {/* <!-- Grid container --> */}
@@ -147,7 +147,7 @@ function Footer(){
             </footer>
             {/* <!-- Footer --> */}
 
-        </div>
+        </React.Fragment>
     )
 }
 

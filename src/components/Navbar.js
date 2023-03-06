@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar(){
     return (
-        <div>
+        <React.Fragment>
             {/* <!-- Small screen content -->
 
 <!-- Offcanvas --> */}
@@ -151,7 +151,7 @@ function Navbar(){
             </div>
             {/* <!-- Navbar --> */}
 
-        </div>
+        </React.Fragment>
     )
 }
 

@@ -1,8 +1,10 @@
 import React from "react"
+import '../css/background.css';
 
 let ChangePassword = () => {
     return(
         <React.Fragment>
+
         {/* <!-- Rules --> */}
             <div class="col-md-6 d-flex align-items-center my-3 my-md-0 my-lg-0">
         
